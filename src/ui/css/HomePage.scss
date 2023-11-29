@@ -1,0 +1,37 @@
+.HomePage {
+  @apply flex flex-col w-full overflow-hidden;
+
+  height: 100vh;
+}
+
+.HomePage_Collage {
+  @apply absolute overflow-hidden;
+
+  z-index: -1;
+  filter: brightness(50%);
+}
+
+.HomePage_Title {
+  @apply flex flex-col self-center items-center justify-center gap-5 text-center;
+
+  max-width: 800px;
+
+  z-index: 1;
+}
+
+.HomePage_Background {
+  @apply bg-black bg-opacity-50 text-white;
+  @apply border-2 rounded-lg p-6;
+}
+
+@media (prefers-reduced-motion) {
+  .HomePage_Collage {
+    @apply hidden;
+  }
+}
+
+@media (width >= 2160px) {
+  .HomePage_Collage {
+    @apply hidden;
+  }
+}
