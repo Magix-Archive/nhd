@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --scroll: 0;
+}
+
+html {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  @apply bg-gray overflow-x-hidden overflow-y-scroll;
+
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  @apply flex flex-col w-full h-full select-none;
+}
+
+.App_ScrollTo {
+  @apply overflow-x-hidden overflow-y-scroll;
+
+  scroll-snap-align: center;
+}
+
+.App_Margin {
+  @apply mt-[10%] ml-[10%] mb-[5%];
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-light-gray rounded-3xl;
+}
