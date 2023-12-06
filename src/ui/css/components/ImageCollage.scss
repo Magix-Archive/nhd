@@ -1,0 +1,31 @@
+.ImageCollage {
+  @apply flex flex-row w-full bg-light-gray p-2;
+  @apply overflow-hidden whitespace-nowrap;
+
+  z-index: -1;
+
+  --gap: 1rem;
+  --gap-translate: calc(-50% - (var(--gap) / 2));
+}
+
+.ImageCollage_Inner {
+  @apply flex flex-row flex-nowrap justify-between;
+
+  gap: var(--gap);
+  width: max-content;
+  animation: scroll 10s linear infinite;
+  animation-direction: var(--dir, normal);
+}
+
+.ImageCollage img {
+  @apply object-contain;
+
+  max-height: 120px;
+  max-width: 192px;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(var(--gap-translate));
+  }
+}
