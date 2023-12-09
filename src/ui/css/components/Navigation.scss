@@ -1,0 +1,10 @@
+.Navigation_Section {
+  @apply flex flex-row gap-2 items-center text-white pl-2 pr-2 rounded-full;
+
+  font-size: 18px;
+  font-family: "Poppins", "sans-serif";
+
+  &:hover {
+    @apply cursor-pointer;
+  }
+}
