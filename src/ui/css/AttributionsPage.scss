@@ -1,0 +1,15 @@
+.AttributionsPage {
+  @apply flex flex-col w-full h-screen;
+}
+
+.AttributionsPage_Container {
+  @apply flex flex-col w-full h-full text-center gap-3;
+}
+
+.AttributionsPage iframe {
+  @apply w-full h-full;
+}
+
+.AttributionsPage_Info {
+  @apply flex flex-col items-center pt-10 pb-10 justify-center w-fit;
+}
