@@ -1,0 +1,21 @@
+.Windows10 {
+  @apply flex flex-col w-full h-screen;
+
+  background-image: url("../uploaded/10_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Windows10_Taskbar {
+  @apply flex flex-row justify-between self-end bg-light-black w-full ml-1;
+}
+
+.Windows10_Start {
+  @apply object-contain w-5 m-2;
+}
+
+.Windows10_Time {
+  @apply text-white text-sm text-center self-center mr-4;
+
+  font-family: "Segoe UI", sans-serif;
+}
