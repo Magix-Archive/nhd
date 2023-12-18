@@ -1,0 +1,26 @@
+.WindowsXP {
+  @apply flex flex-col w-full h-screen overflow-hidden;
+
+  background-image: url("../uploaded/xp_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.WindowsXP_Taskbar {
+  @apply flex flex-row justify-between overflow-hidden w-full;
+  @apply bg-xp-blue border-t-xp-accent border-t-4 h-[40px] self-end;
+}
+
+.WindowsXP_Start {
+  max-width: 120px;
+}
+
+.WindowsXP_Tray {
+  @apply flex flex-row items-center bg-xp-other pl-8 pr-8;
+}
+
+.WindowsXP_Time {
+  @apply text-white text-2xl select-none;
+
+  font-family: "Windows XP Tahoma", "sans-serif";
+}

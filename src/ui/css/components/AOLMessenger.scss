@@ -1,0 +1,96 @@
+.AOLMessenger {
+  @apply flex flex-col mt-[60px] ml-[100px] w-fit;
+  @apply border-xp-blue border-[5px];
+
+  border-radius: 10px;
+
+  background-color: #ece9d8;
+}
+
+.AOLMessenger_TopBar {
+  @apply flex flex-row items-center justify-between;
+  @apply bg-xp-blue pb-1 pr-1;
+}
+
+.AOLMessenger_Viewport {
+  @apply flex flex-col justify-between h-full;
+}
+
+.AOLMessenger_Close {
+  width: 28px;
+  height: 28px;
+}
+
+.AOLMessenger_Icon {
+  height: 22px;
+}
+
+.AOLMessenger_Title {
+  font-family: "MS Sans Serif", "sans-serif";
+}
+
+.AOLMessenger_Actions {
+  @apply flex flex-row items-center gap-2 p-[6px] text-sm;
+  @apply border-b-xp-beige border-b-[1px];
+
+  font-family: "MS Sans Serif", "sans-serif";
+}
+
+.AOLMessenger_Profile {
+  @apply flex flex-col ml-2;
+
+  width: 75px;
+}
+
+.AOLMessenger_ProfileIcon {
+  @apply self-center mt-2.5 w-14;
+}
+
+.AOLMessenger_TextBox {
+  @apply flex flex-col bg-white border-t-black border-l-black;
+  @apply border-t-[1.5px] border-l-[1.5px];
+
+  width: 612px;
+}
+
+.AOLMessenger_Modifiers {
+  @apply flex flex-row items-center justify-center;
+
+  border: 1px solid #ACA899;
+
+  width: 615px;
+  height: 25px;
+}
+
+.AOLMessenger_ModifierList {
+  @apply flex flex-row gap-2 pr-4 pl-4 border-r-[1px] border-xp-beige h-full items-center justify-center;
+}
+
+.AOLMessenger_ModifierList img {
+  @apply object-contain w-3;
+}
+
+.AOLMessenger_Interactions {
+  @apply flex flex-row self-end mt-5 mb-2 mr-[10px];
+
+  border: 1px solid #B4B0A0;
+
+  width: 615px;
+  height: 70px;
+}
+
+.AOLMessenger_Interaction img {
+  @apply object-contain max-h-8 w-8;
+}
+
+.AOLMessenger_Interaction {
+  @apply flex flex-col items-center;
+
+  font-family: "MS Sans Serif", "sans-serif";
+}
+
+.AOLMessenger_Text {
+  @apply text-black;
+
+  font-family: "Times New Roman", "sans-serif";
+}
