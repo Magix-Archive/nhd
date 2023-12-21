@@ -1,0 +1,37 @@
+.Skype {
+  @apply flex flex-col w-[800px] text-black;
+}
+
+.Skype_Logo {
+  width: 32px;
+}
+
+.Skype_Viewport {
+  background-color: #bed8f9 !important;
+}
+
+.Skype_Tab {
+  @apply w-full p-2 font-bold text-sm rounded-t rounded-tr;
+
+  background-color: #dcdcdc;
+}
+
+.Skype_Tab_Continue {
+  @apply border-r-[1px] border-gray;
+}
+
+.Skype_Tab[selected="true"] {
+  @apply bg-white border-r-[1px] border-gray;
+}
+
+.Skype_Contact {
+  @apply w-12 border-2 border-gray rounded;
+}
+
+.Skype_Profile {
+  width: 100px;
+}
+
+.Skype_Icon {
+  @apply rounded-full w-10 h-10;
+}

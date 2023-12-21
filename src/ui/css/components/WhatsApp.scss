@@ -1,0 +1,29 @@
+.WhatsApp {
+  @apply flex flex-col text-black w-1/2;
+
+  background-color: #f0f0f0;
+}
+
+.WhatsApp_Conversation {
+  @apply flex flex-col w-full h-full p-5 gap-3;
+
+  background: rgb(230, 223, 215) url("../uploaded/whatsapp_background.png");
+}
+
+.WhatsApp_Message {
+  @apply flex flex-row p-2 gap-10 rounded-xl;
+
+  max-width: 250px;
+
+  :nth-child(2) {
+    @apply text-xs text-whatsapp-gray;
+  }
+}
+
+.WhatsApp_Logo {
+  width: 24px;
+}
+
+.WhatsApp_Viewport {
+  @apply flex flex-col pl-1 pr-1;
+}

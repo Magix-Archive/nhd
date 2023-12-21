@@ -1,0 +1,15 @@
+.Slack {
+  @apply flex flex-col w-fit;
+}
+
+.Slack_TopBar {
+  @apply bg-slack-dark-purple p-2;
+}
+
+.Slack_Shortcuts span {
+  @apply flex flex-row gap-1 items-center text-base;
+}
+
+.Slack_ProfileIcon {
+  @apply object-contain w-10 rounded-xl self-start mt-1;
+}

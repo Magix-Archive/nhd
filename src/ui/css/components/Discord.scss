@@ -1,0 +1,29 @@
+.Discord {
+  @apply flex flex-col w-[60%] h-[90%] rounded;
+
+  font-family: "Whitney", sans-serif;
+}
+
+.Discord_TopBar {
+  @apply bg-discord-dark-black flex flex-row justify-between p-1 pl-1.5 pr-1.5;
+}
+
+.Discord_Server img {
+  @apply object-contain w-14 rounded-full bg-discord-gray-3;
+}
+
+.Discord_Logo {
+  @apply flex p-2 w-12 h-12 bg-discord-gray-3 rounded-full;
+}
+
+.Discord_Logo img {
+  @apply object-contain rounded w-8;
+}
+
+.Discord_Profile {
+  @apply object-contain w-10 h-10 rounded-full;
+}
+
+.Discord_Icon {
+  @apply w-8 h-8 rounded-full;
+}
