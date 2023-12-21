@@ -1,0 +1,25 @@
+.Windows81 {
+  @apply flex flex-col w-full h-screen;
+
+  background-image: url("../uploaded/81_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Windows81_Taskbar {
+  @apply flex flex-row justify-between w-full;
+  @apply h-[40px] self-end;
+
+  padding: 7px 10px 7px 10px;
+  background-color: rgba(156, 123, 59, 0.5);
+}
+
+.Windows81_Time {
+  @apply text-white self-center select-none;
+
+  font-family: "Segoe UI", "sans-serif";
+}
+
+.Windows81_Start {
+  @apply object-contain w-8;
+}
